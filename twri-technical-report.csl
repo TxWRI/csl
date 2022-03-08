@@ -12,7 +12,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The author-date variant of the Chicago style</summary>
-    <updated>2022-03-08T14:45:17+00:00</updated>
+    <updated>2022-03-08T16:40:18+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -55,18 +55,6 @@
         </group>
       </if>
     </choose>
-  </macro>
-  <macro name="editor">
-    <names variable="editor">
-      <name name-as-sort-order="first" and="text" sort-separator=", " delimiter=", " delimiter-precedes-last="always"/>
-      <label form="short" prefix=", "/>
-    </names>
-  </macro>
-  <macro name="translator">
-    <names variable="translator">
-      <name name-as-sort-order="first" and="text" sort-separator=", " delimiter=", " delimiter-precedes-last="always"/>
-      <label form="short" prefix=", "/>
-    </names>
   </macro>
   <macro name="recipient">
     <choose>
@@ -632,3 +620,4 @@
     </layout>
   </bibliography>
 </style>
+
