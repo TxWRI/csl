@@ -50,4 +50,4 @@ jobs:
       run: |
         cd styles
         cp ../twri-technical-report.csl .
-        CSL_TEST="git" bundle exec rspec spec --format documentation
+        CSL_TEST="twri-technical-report.csl" bundle exec rspec spec --format documentation
