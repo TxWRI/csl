@@ -37,7 +37,6 @@ jobs:
         repository: citation-style-language/styles
     - name: install
       run: |
-        cd styles
         bundle install
     - name: Run tests
       run: CSL_TEST="apa.csl vancouver.csl" bundle exec rspec spec
