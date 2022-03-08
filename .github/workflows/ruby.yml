@@ -36,13 +36,17 @@ jobs:
       uses: actions/checkout@v2
       with:
         repository: citation-style-language/styles
+        path: styles
         clean: false
 
     - name: Update rubygems and install gems
       run: |
+        cd styles
         gem update --system --silent --no-document
         bundle config set without packaging documentation
         bundle install
 
     - name: Run tests
-      run: CSL_TEST="apa.csl vancouver.csl twri-technical-report.csl" bundle exec rspec spec --format documentation
+      run: |
+        cp ../twri-technical-report.csl /styles
+        CSL_TEST="apa.csl vancouver.csl twri-technical-report.csl" bundle exec rspec spec --format documentation
