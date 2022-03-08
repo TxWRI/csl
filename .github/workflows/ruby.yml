@@ -44,4 +44,4 @@ jobs:
         bundle install
 
     - name: Run tests
-      run: CSL_TEST="apa.csl vancouver.csl" bundle exec rspec spec
+      run: CSL_TEST="git" bundle exec rspec spec --format documentation
