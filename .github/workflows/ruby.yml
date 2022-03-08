@@ -50,4 +50,5 @@ jobs:
       run: |
         cd styles
         cp ../twri-technical-report.csl .
-        CSL_TEST="twri-technical-report.csl" bundle exec rspec spec --format documentation
+        cp ../texas-water-journal-name-year.csl .
+        CSL_TEST="twri-technical-report.csl texas-water-journal-name-year.csl" bundle exec rspec spec --format documentation
