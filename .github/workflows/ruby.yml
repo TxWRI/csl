@@ -49,4 +49,5 @@ jobs:
     - name: Run tests
       run: |
         cp twri-technical-report.csl ../styles
+        cd styles
         CSL_TEST="apa.csl vancouver.csl twri-technical-report.csl" bundle exec rspec spec --format documentation
