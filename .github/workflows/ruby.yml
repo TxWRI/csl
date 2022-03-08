@@ -44,4 +44,4 @@ jobs:
         bundle install
 
     - name: Run tests
-      run: CSL_TEST="twri-technical-report.csl" bundle exec rspec spec --format documentation
+      run: CSL_TEST="apa.csl vancouver.csl twri-technical-report.csl" bundle exec rspec spec --format documentation
