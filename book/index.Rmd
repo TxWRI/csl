@@ -4,11 +4,9 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: book.bib
-# url: your book url like https://bookdown.org/yihui/bookdown
-# cover-image: path to the social sharing image like images/cover.jpg
+url: https://txwri.github.io/csl/
 description: |
   Provides formatting examples for internally produced reports.
-biblio-style: apalike
 csl: twri-technical-report.csl
 ---
 
