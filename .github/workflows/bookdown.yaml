@@ -9,6 +9,9 @@ name: bookdown
 jobs:
   bookdown:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./example
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
@@ -30,7 +33,7 @@ jobs:
           restore-keys: bookdown-
 
       - name: Build site
-        run: Rscript -e 'bookdown::render_book("example/index.Rmd", quiet = TRUE)'
+        run: Rscript -e 'bookdown::render_book("index.Rmd", quiet = TRUE)'
 
       - name: Deploy to GitHub pages 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
