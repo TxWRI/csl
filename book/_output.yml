@@ -6,6 +6,7 @@ bookdown::bs4_book:
     base: https://github.com/TxWRI/csl
     branch: main
     subdir: book
+  split_bib: true
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
