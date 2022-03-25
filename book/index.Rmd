@@ -13,18 +13,31 @@ link-citations: true
 
 # About
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
+This is an _example_ documentation for in-text citations and reference styles used in TWRI reports.
 
-## Usage 
+## Reccomended Usage 
 
-Each **bookdown** chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter *must* start with a first-level heading: `# A good chapter`, and can contain one (and only one) first-level heading.
 
-Use second-level and higher headings within chapters like: `## A short section` or `### An even shorter section`.
-
-The `index.Rmd` file is required, and is also your first book chapter. It will be the homepage when you render the book.
-
-## In-Text References
+### In-Text References
 
 - One author: name with year (Smith 2008) 
 - Two authors: name and name with year (Smith and Jones 2009) 
 - Three authors: name et al. with year (Smith et al. 2010) 
+
+### End References
+
+End references follow Chicago Manual of Style, examples are available at: http://www.chicagomanualofstyle.org/tools_citationguide/citation-guide-2.html#cg-journal.
+
+**General Rules:** 
+
+Authors: List up to 10 authors in the reference list. If there are more than 10 authors, list the first seven with et al. at end, e.g., Lennon, McCartney, Harrison, Starr, Clapton, Hendrix, Joplin, et al. 
+
+Journal article and report titles: In an exception to CMOS, use sentence case, not title case. Do not use quotation marks around article titles.  
+
+Journal names: In an exception to CMOS, do not italicize journal names. 
+
+Dates: If there is no date, use n.d. for year. 
+
+## Bibliography Managers
+
+There are multiple bibliography manager softwares available that will manage and format references. [Zotero](https://www.zotero.org/) and [Mendeley](https://www.mendeley.com/) use Citation Style Language (`.csl`) files to format references. A `.csl` file specific to TWRI's in-house reference style is available on [Github](https://raw.githubusercontent.com/TxWRI/csl/main/texas-water-journal-name-year.csl).
