@@ -8,6 +8,7 @@ url: https://txwri.github.io/csl/
 description: |
   Provides formatting examples for internally produced reports.
 csl: twri-technical-report.csl
+link-citations: true
 ---
 
 # About

@@ -3,7 +3,7 @@ bookdown::bs4_book:
   theme:
     primary: "#096B72"
     base_font:
-      google: EB Garamond
+      google: "EB Garamond"
     heading_font:
       google: Oswald
   repo: 
@@ -11,3 +11,4 @@ bookdown::bs4_book:
     branch: main
     subdir: book
   split_bib: true
+  footnotes_inline: false

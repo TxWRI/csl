@@ -2,3 +2,9 @@
 .Rhistory
 .RData
 .Ruserdata
+.Rbuildignore
+_publish.R
+*_files
+_book
+_main.*
+packages.bib
