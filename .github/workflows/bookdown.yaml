@@ -39,3 +39,5 @@ jobs:
         with:
           branch: gh-pages
           folder: ./book/_book
+          clean: true
+          clean-exclude: .nojekyll
