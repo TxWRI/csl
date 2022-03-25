@@ -1,5 +1,6 @@
 --- 
 title: "Formatting References"
+author: Texas Water Resources Institute
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
@@ -13,7 +14,7 @@ link-citations: true
 
 # About
 
-This is an _example_ documentation for in-text citations and reference styles used in TWRI reports.
+This is _example_ documentation for in-text citations and reference styles used in TWRI reports.
 
 ## Reccomended Usage 
 
@@ -40,4 +41,4 @@ Dates: If there is no date, use n.d. for year.
 
 ## Bibliography Managers
 
-There are multiple bibliography manager softwares available that will manage and format references. [Zotero](https://www.zotero.org/) and [Mendeley](https://www.mendeley.com/) use Citation Style Language (`.csl`) files to format references. A `.csl` file specific to TWRI's in-house reference style is available on [Github](https://raw.githubusercontent.com/TxWRI/csl/main/texas-water-journal-name-year.csl).
+There are multiple bibliography managers available to manage and format references. [Zotero](https://www.zotero.org/) and [Mendeley](https://www.mendeley.com/) use Citation Style Language (`.csl`) files to format references. A `.csl` file specific to TWRI's in-house reference style is available on [Github](https://raw.githubusercontent.com/TxWRI/csl/main/texas-water-journal-name-year.csl).
