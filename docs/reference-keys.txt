@@ -11,3 +11,12 @@ news-and-magazine-articles
 examples-2
 websites
 examples-3
+books
+complete-books
+chapter-or-parts-of-books
+examples-4
+other
+thesis
+software
+online-data
+examples-5

@@ -80,11 +80,82 @@ references:
   page: '2293'
   source: Crossref
   title: >-
-    Phosphorus, Sediment, and Loads in Unfenced Streams of the Georgia Piedmont,
+    Phosphorus, sediment, and loads in unfenced streams of the georgia piedmont,
     USA
   type: article-journal
   URL: https://www.agronomy.org/publications/jeq/abstracts/34/6/2293
   volume: '34'
+
+- id: fouad_flow_2016
+  author:
+    - family: Fouad
+      given: Geoffrey G.
+  citation-key: fouad_flow_2016
+  event-place: San Diego, CA
+  genre: Dissertation
+  issued:
+    - year: 2016
+      month: 6
+  publisher: San Diego State University and University of California Santa Barbara
+  publisher-place: San Diego, CA
+  title: >-
+    Flow duration curve prediction for ungaged basins: A data driven study of
+    the contiguous United States
+  type: thesis
+  URL: https://escholarship.org/uc/item/0xf850hq
+
+- id: helsel_statistical_2020
+  author:
+    - family: Helsel
+      given: Dennis R
+    - family: Hirsch
+      given: Robert M
+    - family: Ryberg
+      given: Karen R.
+    - family: Archfield
+      given: Stacey A.
+    - family: Gilroy
+      given: E J
+  citation-key: helsel_statistical_2020
+  event-place: Reston, VA
+  issued:
+    - year: 2020
+  number-of-pages: '458'
+  publisher: USGS
+  publisher-place: Reston, VA
+  title: >-
+    Statistical methods in water resources: U.S. Geological Survey Techniques
+    and Methods, book 4, chapter A3
+  type: book
+  URL: https://doi.org/10.3133/tm4a3
+
+- id: james_introduction_2013
+  author:
+    - family: James
+      given: Gareth
+    - family: Witten
+      given: Daniela
+    - family: Hastie
+      given: Trevor
+    - family: Tibshirani
+      given: Robert
+  call-number: QA276 .I585 2013
+  citation-key: james_introduction_2013
+  collection-number: '103'
+  collection-title: Springer texts in statistics
+  event-place: New York
+  ISBN: 978-1-4614-7137-0
+  issued:
+    - year: 2013
+  language: en
+  note: 'OCLC: ocn828488009'
+  number-of-pages: '426'
+  publisher: Springer
+  publisher-place: New York
+  source: Library of Congress ISBN
+  title: 'An introduction to statistical learning: with applications in R'
+  title-short: An introduction to statistical learning
+  type: book
 
 - id: k._l._wagner_assessment_2012
   abstract: >-
@@ -132,11 +203,91 @@ references:
   language: en
   page: 2111-2122
   source: Crossref
-  title: Assessment of Cattle Grazing Effects on E. coli Runoff
+  title: Assessment of cattle grazing effects on E. coli runoff
   type: article-journal
   URL: >-
     http://elibrary.asabe.org/abstract.asp??JID=3&AID=42503&CID=t2012&v=55&i=6&T=1
   volume: '55'
+
+- id: kip_impact_2016
+  author:
+    - family: Kip
+      given: Nathalie
+  citation-key: kip_impact_2016
+  event-place: Austin, TX
+  genre: Thesis
+  issued:
+    - year: 2016
+      month: 8
+  number-of-pages: '148'
+  publisher: University of Texas at Austin
+  publisher-place: Austin, TX
+  title: >-
+    The impact of the comprehensive watersheds ordinance on stream health in
+    Austin, Texas
+  type: thesis
+  URL: http://hdl.handle.net/2152/43590
+
+- id: oconnor_geological_2013
+  accessed:
+    - year: 2018
+      month: 6
+      day: 22
+  author:
+    - family: Grant
+      given: Gordon E.
+    - family: Schmidt
+      given: John C.
+    - family: Lewis
+      given: Sarah L.
+  citation-key: oconnor_geological_2013
+  container-title: Water Science and Application
+  DOI: 10.1029/007WS13
+  editor:
+    - family: O'Connor
+      given: Jim E.
+    - family: Grant
+      given: Gordon E.
+  event-place: Washington, D. C.
+  ISBN: 978-1-118-66573-2 978-0-87590-356-9
+  issued:
+    - year: 2013
+      month: 3
+      day: 19
+  language: en
+  page: 203-219
+  publisher: American Geophysical Union
+  publisher-place: Washington, D. C.
+  source: Crossref
+  title: A Geological Framework for Interpreting Downstream Effects of Dams on Rivers
+  type: chapter
+  URL: http://doi.wiley.com/10.1029/007WS13
+
+- id: padfield_nlsmultstart_2020
+  author:
+    - family: Padfield
+      given: Daniel
+    - family: Matheson
+      given: Granville
+  citation-key: padfield_nlsmultstart_2020
+  issued:
+    - year: 2020
+  title: 'nls.multstart: Robust Non-Linear Regression using AIC Scores'
+  type: book
+  URL: https://CRAN.R-project.org/package=nls.multstart
+
+- id: r_core_team_r_2021
+  author:
+    - literal: R Core Team
+  citation-key: r_core_team_r_2021
+  event-place: Vienna, Austria
+  issued:
+    - year: 2021
+  publisher: R Foundation for Statistical Computing
+  publisher-place: Vienna, Austria
+  title: 'R: A language and environment for statistical computing.'
+  type: book
+  URL: https://www.R-project.org/
 
 - id: schlanger_out_2018
   author:
@@ -154,4 +305,29 @@ references:
   type: article-newspaper
   URL: >-
     https://www.texasobserver.org/out-of-sight-out-of-water-the-u-s-and-mexico-have-only-just-begun-to-grapple-with-the-aquifers-they-share/
+
+- id: schramm_data_2020
+  abstract: >-
+    This release includes pre-publication data, analysis, and figures. Subject
+    to revision after peer-review.
+  accessed:
+    - year: 2020
+      month: 12
+      day: 15
+  author:
+    - family: Schramm
+      given: Michael
+  citation-key: schramm_data_2020
+  DOI: 10.5281/ZENODO.4317858
+  issued:
+    - year: 2020
+      month: 12
+      day: 11
+  title: >-
+    Data and code for estimating statistical power for detecting long term
+    trends in surface water *Escherichia <span class="nocase">coli</span>*
+    concentrations
+  title-short: mps9506/schramm-ecoli-trends
+  type: webpage
+  URL: https://zenodo.org/record/4317858
 ...
