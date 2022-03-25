@@ -1,6 +1,6 @@
 # Journals
 
-Last name, First initial Middle initial. Year. Article title in sentence case. Journal Title. Volume (issue): page numbers. URL (use DOI if possible). 
+**Last name, First initial Middle initial. Year. Article title in sentence case. Journal Title. Volume (issue): page numbers. URL (use DOI if possible).**
 
 ## Examples
 

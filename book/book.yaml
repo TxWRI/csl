@@ -1,0 +1,157 @@
+---
+references:
+- id: borel_modeling_2012
+  author:
+    - family: Borel
+      given: Kyna
+    - family: Gregory
+      given: Lucas
+    - family: Karthikeyan
+      given: R.
+  citation-key: borel_modeling_2012
+  event-place: College Station, TX
+  genre: Technical Report
+  issued:
+    - year: 2012
+  number: '453'
+  publisher: Texas Water Resources Institute
+  publisher-place: College Station, TX
+  title: Modeling Support for the Attoyac Bayou Assessment Using Load Duration Curves
+  type: report
+  URL: >-
+    https://twri.tamu.edu/publications/technical-reports/2012-technical-reports/tr-453/
+
+- id: byers_phosphorus_2005
+  abstract: >-
+    Contamination of unfenced streams with P, sediments, and pathogenic bacteria
+    from cattle (Bos taurus) activity may be affected by the availability of
+    shade and alternative water sources. The objectives of this study were to
+    evaluate water quality in two streams draining tall fescue (Festuca
+    arundinacea Schreb.)–common bermudagrass (Cynodon dactylon L.) pastures with
+    different shade distribution, and to quantify the effects of alternative
+    water sources on stream water quality. For 3 yr, loads of dissolved reactive
+    phosphorus (DRP), total phosphorus (TP), and total suspended solids (TSS)
+    were measured during storm flow, and loads of DRP, TP, TSS, and Escherichia
+    coli were measured every 14 d during base flow. We also used GPS collars to
+    determine amount of time cattle spent in riparian areas. Our results showed
+    that cattle-grazed pastures with unfenced streams contributed significant
+    loads of DRP, TP, TSS, and E. coli to surface waters (p Ͻ 0.01). Time spent
+    by cattle in riparian areas as well as storm flow loads of DRP, TP, and TSS
+    were larger (p Ͻ 0.08) in the pasture with the smaller amount of nonriparian
+    shade. Water trough availability decreased base flow loads of TSS and E.
+    coli in both streams, and decreased time cattle spent in riparian areas in
+    the pasture with the smaller amount of nonriparian shade (p Ͻ 0.08). Our
+    results indicate that possible BMPs to reduce contamination from
+    cattle-grazed pastures would be to develop or encourage nonriparian shade
+    and to provide cattle with alternative water sources away from the stream.
+  accessed:
+    - year: 2018
+      month: 6
+      day: 22
+  author:
+    - family: Byers
+      given: H. L.
+    - family: Cabrera
+      given: M. L.
+    - family: Matthews
+      given: M. K.
+    - family: Franklin
+      given: D. H.
+    - family: Andrae
+      given: J. G.
+    - family: Radcliffe
+      given: D. E.
+    - family: McCann
+      given: M. A.
+    - family: Kuykendall
+      given: H. A.
+    - family: Hoveland
+      given: C. S.
+    - family: Calvert
+      given: V. H.
+  citation-key: byers_phosphorus_2005
+  container-title: Journal of Environment Quality
+  DOI: 10.2134/jeq2004.0335
+  ISSN: 1537-2537
+  issue: '6'
+  issued:
+    - year: 2005
+  language: en
+  page: '2293'
+  source: Crossref
+  title: >-
+    Phosphorus, Sediment, and Loads in Unfenced Streams of the Georgia Piedmont,
+    USA
+  type: article-journal
+  URL: https://www.agronomy.org/publications/jeq/abstracts/34/6/2293
+  volume: '34'
+
+- id: k._l._wagner_assessment_2012
+  abstract: >-
+    Runoff of Escherichia coli and other fecal indicator bacteria from grazing
+    lands has been identified as a significant source of bacterial
+    contamination. Development of best management practices to address these
+    bacterial issues is critical to the success of watershed restoration efforts
+    where grazing is a substantial contributor. In the present study, grazing
+    management was evaluated to assess its effectiveness as a best management
+    practice. Specifically, runoff from rotationally grazed and ungrazed
+    approximately 1 ha pastures was monitored for more than two years using
+    automated samplers. E. coli levels in runoff were enumerated by membrane
+    filtration using modified membrane-thermotolerant Escherichia coli agar
+    (modified mTEC). The study found that background E. coli concentrations
+    (i.e., those from wildlife and soilborne naturalized strains) were
+    relatively consistent among sites. Median background E. coli concentrations
+    ranged from 3,500 to 5,500 colony forming units per 100 mL, which are not
+    inconsequential levels related to water quality assessment and
+    implementation efforts. Findings also indicated that rotational stocking, if
+    timed appropriately, reduced E. coli concentrations in runoff. The impact of
+    grazing timing in relation to runoff events was a more significant factor
+    than stocking rate on the rotationally stocked pastures. When runoff
+    occurred more than two weeks following grazing, E. coli levels were reduced
+    by more than 88% compared to runoff during or soon after grazing. As a
+    result, it is recommended that creek pastures and other hydrologically
+    connected pastures be grazed during periods when runoff is less likely and
+    that upland pastures be grazed during rainy seasons when runoff is more
+    likely to occur.
+  accessed:
+    - year: 2018
+      month: 6
+      day: 22
+  author:
+    - literal: K. L. Wagner
+    - literal: L. A. Redmon
+    - literal: T. J. Gentry
+    - literal: R. D. Harmel
+  citation-key: k._l._wagner_assessment_2012
+  container-title: Transactions of the ASABE
+  DOI: 10.13031/2013.42503
+  ISSN: 2151-0040
+  issue: '6'
+  issued:
+    - year: 2012
+  language: en
+  page: 2111-2122
+  source: Crossref
+  title: Assessment of Cattle Grazing Effects on E. coli Runoff
+  type: article-journal
+  URL: >-
+    http://elibrary.asabe.org/abstract.asp??JID=3&AID=42503&CID=t2012&v=55&i=6&T=1
+  volume: '55'
+
+- id: schlanger_out_2018
+  author:
+    - family: Schlanger
+      given: Zoe
+  citation-key: schlanger_out_2018
+  container-title: Texas Observer
+  issued:
+    - year: 2018
+      month: 8
+      day: 20
+  title: >-
+    Out of Sight, out of water: The U.S. and Mexico have only just begun to
+    grapple with the aquifers they share
+  type: article-newspaper
+  URL: >-
+    https://www.texasobserver.org/out-of-sight-out-of-water-the-u-s-and-mexico-have-only-just-begun-to-grapple-with-the-aquifers-they-share/
+...

@@ -7,3 +7,7 @@ reports
 examples
 journals
 examples-1
+news-and-magazine-articles
+examples-2
+websites
+examples-3

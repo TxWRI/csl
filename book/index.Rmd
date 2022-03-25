@@ -4,11 +4,11 @@ author: Texas Water Resources Institute
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: book.bib
+bibliography: book.yaml
 url: https://txwri.github.io/csl/
 description: |
   Provides formatting examples for internally produced reports.
-csl: twri-technical-report.csl
+csl: ../twri-technical-report.csl
 link-citations: true
 ---
 

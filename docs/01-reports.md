@@ -1,6 +1,6 @@
 # Reports
 
-Last Name, First Name initial, Last Name, First Name Initial. Year. Report title in Title Case, Publisher/Organization. Identifying information. URL. 
+**Last Name, First Name initial, Last Name, First Name Initial. Year. Report title in Title Case, Publisher/Organization. Identifying information. URL.**
 
 
 ## Examples
