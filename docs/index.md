@@ -1,7 +1,7 @@
 --- 
 title: "Formatting References"
 author: Texas Water Resources Institute
-date: "2022-03-25"
+date: "2023-08-16"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: book.yaml
