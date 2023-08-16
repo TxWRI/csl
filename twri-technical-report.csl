@@ -13,7 +13,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The author-date variant of the Chicago style</summary>
-    <updated>2023-08-16T20:58:58+00:00</updated>
+    <updated>2023-08-16T21:17:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -95,12 +95,12 @@
           <choose>
             <if match="any" variable="author">
               <names variable="author">
-                <name and="text" et-al-min="10" et-al-use-first="7" name-as-sort-order="first"/>
+                <name and="text" et-al-min="10" et-al-use-first="7" initialize-with="." name-as-sort-order="all"/>
               </names>
             </if>
             <else>
               <names variable="editor">
-                <name and="text" et-al-min="10" et-al-use-first="7" initialize-with="" name-as-sort-order="first"/>
+                <name and="text" et-al-min="10" et-al-use-first="7" initialize-with="." name-as-sort-order="all"/>
               </names>
             </else>
           </choose>
