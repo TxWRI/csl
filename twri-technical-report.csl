@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="display-and-sort" page-range-format="chicago">
+  <!-- This style was edited with the Visual CSL Editor (https://editor.citationstyles.org/visualEditor/) -->
   <info>
     <title>TWRI Technical Report (author-date)</title>
     <id>http://www.zotero.org/styles/twri-technical-report</id>
@@ -12,7 +13,7 @@
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The author-date variant of the Chicago style</summary>
-    <updated>2022-03-25T21:13:38+00:00</updated>
+    <updated>2023-08-16T20:58:58+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -27,16 +28,21 @@
   <macro name="secondary-contributors">
     <choose>
       <if type="chapter entry-dictionary entry-encyclopedia paper-conference" match="none">
-        <group delimiter=". ">
-          <names variable="editor translator" delimiter=". ">
-            <label form="verb" text-case="capitalize-first" suffix=" "/>
-            <name and="text" delimiter=", "/>
-          </names>
-          <names variable="director" delimiter=". ">
-            <label form="verb" text-case="capitalize-first" suffix=" "/>
-            <name and="text" delimiter=", "/>
-          </names>
-        </group>
+        <choose>
+          <if match="none" variable="author"/>
+          <else>
+            <group delimiter=". ">
+              <names variable="editor translator" delimiter=". ">
+                <label form="verb" text-case="capitalize-first" suffix=" "/>
+                <name and="text" delimiter=", "/>
+              </names>
+              <names variable="director" delimiter=". ">
+                <label form="verb" text-case="capitalize-first" suffix=" "/>
+                <name and="text" delimiter=", "/>
+              </names>
+            </group>
+          </else>
+        </choose>
       </if>
     </choose>
   </macro>
@@ -86,9 +92,18 @@
       <text macro="recipient"/>
       <choose>
         <if type="article-magazine article-newspaper book" match="any">
-          <names variable="author">
-            <name and="text" et-al-min="10" et-al-use-first="7" name-as-sort-order="first"/>
-          </names>
+          <choose>
+            <if match="any" variable="author">
+              <names variable="author">
+                <name and="text" et-al-min="10" et-al-use-first="7" name-as-sort-order="first"/>
+              </names>
+            </if>
+            <else>
+              <names variable="editor">
+                <name and="text" et-al-min="10" et-al-use-first="7" initialize-with="" name-as-sort-order="first"/>
+              </names>
+            </else>
+          </choose>
         </if>
         <else>
           <names variable="author">
